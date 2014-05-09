@@ -1,0 +1,57 @@
+/* CSS Document */
+.Lblock{ 
+ display:block; 
+ width:100%; 
+ height:39px;
+ text-decoration: none;
+ 
+ }
+.mnuhm{ cursor:hand; background-position:top -5px; display:block; height:39px; width:131px; background:url(../images/mnu_home.gif) }
+.mnuhm:hover{ cursor:hand;  background-position:-30px; height:39px; width:131px; background:url(../images/mnu_home.gif); }
+.mnuhm #active{ cursor:hand;  background-position:-30px; height:39px; width:131px; background:url(../images/mnu_home_o.gif); }
+
+.mnuabout{ cursor:hand; background-position:top -5px; display:block; height:39px; width:125px; background:url(../images/mnu_about.gif) }
+.mnuabout:hover{ cursor:hand;  background-position:-30px; height:39px; width:125px; background:url(../images/mnu_about_o.gif); }
+.mnuabout #active{ cursor:hand;  background-position:-30px; height:39px; width:125px; background:url(../images/mnu_about_o.gif); }
+
+
+.mnudeals{ cursor:hand; background-position:top -5px; display:block; height:39px; width:130px; background:url(../images/mnu_deals.gif) }
+.mnudeals:hover{ cursor:hand; background-position:-30px; height:39px; width:130px; background:url(../images/mnu_deals_o.gif); }
+.mnudeals #active{ cursor:hand; background-position:-30px; height:39px; width:130px; background:url(../images/mnu_deals_o.gif); }
+
+
+.mnuHomeInstaticPage{ cursor:hand; background-position:top -5px; display:block; height:39px; width:130px; background:url(../images/mnu_home1.gif) }
+.mnuHomeInstaticPage:hover{ cursor:hand; background-position:-30px; height:39px; width:130px; background:url(../images/mnu_home.gif); }
+.mnuHomeInstaticPage #active{ cursor:hand; background-position:-30px; height:39px; width:130px; background:url(../images/mnu_home.gif); }
+
+.mnucontact{ cursor:hand; background-position:top -5px; display:block; height:39px; width:114px; background:url(../images/mnu_contact.gif); }
+.mnucontact:hover{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/mnu_contact_o.gif); }
+.mnucontact #active{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/mnu_contact_o.gif); }
+
+.mnuFeatures{ cursor:hand; background-position:top -5px; display:block; height:39px; width:114px; background:url(../images/features_tab_img.gif); }
+.mnuFeatures:hover{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/features_tab_img.gif); }
+.mnuFeatures #active{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/features_tab_img.gif); }
+
+.mnuFAQes{ cursor:hand; background-position:top -5px; display:block; height:39px; width:114px; background:url(../images/faqs_tab_img.gif); }
+.mnuFAQes:hover{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/faqs_tab_img.gif); }
+.mnuFAQes #active{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/faqs_tab_img.gif); }
+
+.mnuDisclaimer{ cursor:hand; background-position:top -5px; display:block; height:39px; width:114px; background:url(../images/disclaimer_tab_img.gif); }
+.mnuDisclaimer:hover{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/disclaimer_tab_img.gif); }
+.mnuDisclaimer #active{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/disclaimer_tab_img.gif); }
+
+.mnuETerms{ cursor:hand; background-position:top -5px; display:block; height:39px; width:150px; background:url(../termsConditions_tab_img.gif); }
+.mnuETerms:hover{ cursor:hand; background-position:-30px; height:39px; width:150px; background:url(../images/termsConditions_tab_img.gif); }
+.mnuETerms #active{ cursor:hand; background-position:-30px; height:39px; width:150px; background:url(../images/termsConditions_tab_img.gif); }
+
+.mnuPrivacyPolicy{ cursor:hand; background-position:top -5px; display:block; height:39px; width:114px; background:url(../privacyPolicy_tab_img.gif); }
+.mnuPrivacyPolicy:hover{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/privacyPolicy_tab_img.gif); }
+.mnuPrivacyPolicy #active{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/privacyPolicy_tab_img.gif); }
+
+.mnuSiteMap{ cursor:hand; background-position:top -5px; display:block; height:39px; width:114px; background:url(../sitemap_tab_img.gif); }
+.mnuSiteMap:hover{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/sitemap_tab_img.gif); }
+.mnuSiteMap #active{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/sitemap_tab_img.gif); }
+
+.mnuFeedback{ cursor:hand; background-position:top -5px; display:block; height:39px; width:114px; background:url(../feedback_tab_img.gif); }
+.mnuFeedback:hover{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/feedback_tab_img.gif); }
+.mnuFeedback #active{ cursor:hand; background-position:-30px; height:39px; width:114px; background:url(../images/feedback_tab_img.gif); }

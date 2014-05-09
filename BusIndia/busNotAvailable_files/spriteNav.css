@@ -1,0 +1,16 @@
+/* sprite styles 3/7/2013  busindia   */
+.Headerimage {display:block; height:24px; background: url(../images/busindia_navbar.png); } 
+.Headerhome {width:120px; background-position: -0px -0px; width: 120px; height: 24px;}
+.Headerhome:hover {width:120px; background-position: -0px -175px; width: 120px; height: 24px;}
+.Headerhome1 {width:120px; background-position: -0px -175px; width: 120px; height: 24px;}
+.HeaderBus {width:125px; background-position: -0px -35px; width:125px; height: 24px;}
+.HeaderBus:hover {width:125px; background-position: -0px -210px; width:125px; height: 24px;}
+.HeaderBus1 {width:125px; background-position: -0px -210px; width:125px; height: 24px;}
+.HeaderHotel {width:137px; background-position: -0px -70px; width: 137px; height: 24px;}
+.HeaderHotel:hover {width:137px; background-position: -0px -245px; width: 137px; height: 24px;}
+.HeaderHotel1 {width:137px; background-position: -0px -245px; width: 137px; height: 24px;}
+.HeaderHotel1:hover {width:137px; background-position: -0px -70px; width: 137px; height: 24px;}
+.HeaderBusHotel {width:215px; background-position: -0px -105px; width: 215px; height: 24px;}
+.HeaderBusHotel:hover {width:215px; background-position: -0px -280px;}
+.HeaderBlank {width:383px; background-position: -0px -140px; width: 383px; height: 24px;}
+/* sprite styles  End  */

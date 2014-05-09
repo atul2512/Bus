@@ -1,0 +1,28 @@
+.balloonstyle{
+position:absolute;
+top: -500px;
+left: 0;  
+padding: 2px;
+visibility: hidden;
+border:1px solid black;
+font:normal 12px Verdana;
+line-height: 18px;
+z-index: 100;
+background-color: white;
+width: 300px;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135,Strength=5);
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+border-radius: 7px; /* future proofing */
+-khtml-border-radius: 7px; /* for old Konqueror browsers */
+}
+
+#arrowhead{
+z-index: 90;
+position: absolute;
+top: -500px;
+
+visibility: hidden; margin-left: 10px;
+}
+

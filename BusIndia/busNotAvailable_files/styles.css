@@ -1,0 +1,2844 @@
+/* Busindia.com    styles  22/12/2011   venkatesh  */
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.btnTxt {
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+.btnTxt:hover {
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fefc6a;
+	text-decoration: none;
+}
+.mainbtnTxt {
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+.mainbtnTxt:hover {
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fefc6a;
+	text-decoration: none;
+}
+.toplinks2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #28279b;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.toplinks2_pipe{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #006600;
+	font-weight: normal;
+	
+}
+.toplinks2:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #6867fc;
+	
+	text-decoration: none;
+	
+}
+.toplinks2noLink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #222;
+	text-decoration: none;
+}
+.toplinks2Select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #222;
+	text-decoration: underline;
+}
+.welcomeTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #222;
+	text-decoration: none;
+}
+.searchBlockHeadTxt {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+.searchBlockHeadTxtinner {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+.onewayTripTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.from_to_Txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.from_to_Txt_new {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: yellow;
+}
+
+.header_row {
+	color:yellow;
+	font-size:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.search_bus {
+color: white;
+background: -webkit-linear-gradient(top, rgb(255, 153, 51), rgb(255, 128, 0));
+background: -moz-linear-gradient(center top , #F93, #FF8000) repeat scroll 0% 0% transparent;
+border-radius: 5px;
+border: 1px solid  rgb(255, 128, 0);
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+padding: 5px;
+font-size: 20px;
+text-decoration: none;
+margin-right: 40px;
+font-weight:normal
+}
+
+.whyBusIndia {
+color: white;
+background: -webkit-linear-gradient(top, rgb(95, 174, 83), rgb(59, 124, 51));
+background: -moz-linear-gradient(center top , rgb(95, 174, 83), rgb(59, 124, 51)) repeat scroll 0% 0% transparent;
+border: 1px solid rgb(95, 174, 83);
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+padding: 5px;
+font-size: 20px;
+text-decoration: none;
+margin-right: 40px;
+font-weight:normal
+}
+	
+
+
+#back_img {
+	/* background-image: url(http://media.busindia.com/cdn-hotels/images/bihotel_home_main.jpg)"; */
+	background: #FFF url('http://media.busindia.com/cdn/images/bus-background1.jpg') no-repeat;
+	position:absolute;
+	top:133px;
+	width:100%;
+	height:700px;
+	z-index:-1000;
+	background-size:100%;
+	padding:0px;
+	margin:0px;
+}
+
+.from_toTxtBox {
+    height: 16px;
+	width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	vertical-align:middle;
+}
+.timeAnyCombo {
+    height: 18px;
+	width: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.calCombo {
+    height: 15px;
+	width: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+}
+.male_femaleTxtBox {
+    height: 14px;
+	width: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.male_femaleTxt {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 8.6pt;
+	font-weight: normal;
+	color: #000000;
+}
+.dottedLine {
+	height: 1px;		
+	background-image: url(../images/dottedLine.gif);	 
+}
+.topdestinationsTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+}
+.topdestinationsTxt:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: underline;
+}
+.topdestinationsTxtsmallReadmore {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #003300;
+	text-decoration: underline;
+}
+.topdestinationsTxtsmallReadmore:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #4d4c4c;
+	text-decoration: none;
+}
+.latestNewsHeadTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003300;
+	text-decoration: none;
+	background-color: #d8ebc4;
+}
+.latestNewsSubHeadTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000099;
+	text-decoration: none;
+	background-color: #d8ebc4;
+}
+.latestNewsTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+}
+.news_block01 {width: 10px; height:10px;  background-image: url(../images/news_block_01.gif); background-repeat:no-repeat;}
+.news_block02 {height:10px;	background-color: #d8ebc4;}
+.news_block04 {background-color: #d8ebc4;}
+.news_block03 {width: 10px; height:10px;  background-image: url(../images/news_block_03.gif); background-repeat:no-repeat;}
+.news_block05 {background-color: #d8ebc4;}
+.news_block06 {background-color: #d8ebc4;}
+.dottedLineW {		
+	background-image: url(../images/dottedLineW.gif);	
+}
+.footerCopyTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #222;
+	text-decoration: none;
+}
+.footerPoweredTxt {
+    text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #222;
+	text-decoration: none;
+}
+.footerTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #003333;
+	text-decoration: underline;
+	line-height: 17px;
+}
+.footerTxt:hover {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: normal;
+ color: #222;
+ text-decoration: none;
+ line-height: 17px;
+}
+.mobileTxt1 { 
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: normal;
+ color: #222;
+ text-decoration: none;
+}
+.mobileTxt2 { 
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: bold;
+ color: #cc3300;
+ text-decoration: none;
+}
+.mobileTxtBlue { 
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: bold;
+ color: #1a1a4c;
+ text-decoration: none; 
+}
+.helpTxt { 
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: bold;
+ color: #333;
+ text-decoration: none;
+}
+.helpTxt1 { 
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+ color: #1a1a4c;
+ text-decoration: none; 
+}
+.smallbtnTxt {
+ text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+.smallbtnTxt:hover {
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #fefc6a;
+	text-decoration: none;
+}
+.footerradiantLinkTxt {
+    text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #222;
+	text-decoration: none;
+}
+.footerradiantLinkTxt:hover {
+    text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #222;
+	text-decoration: underline;
+}
+.tableTitle1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #336600;
+	text-decoration: none;
+}
+.tableTitle2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #336600;
+	text-decoration: none;
+}
+.tableHead {
+    background-color: #d0e8c5;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003300;
+	text-decoration: none;
+}
+.tableHead1 {
+    background-color: #FFFFFF;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003300;
+	text-decoration: none;
+}
+.textAlign {
+text-align:center;
+}
+.sortByText {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+}
+.tripStationSmallTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.tripStationTxt01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF629;
+}
+.tripStationSmallTxt01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+}
+.fareText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+}
+.fareTextBig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ff6600;
+	font-weight: bold;
+}
+.fareTextSTUBig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003300;
+	font-weight: bold;
+}
+.SelectYourOnwardJourneyText {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+.trip_name {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.fareTextSmall {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	font-weight: normal;
+}
+.changeBusTextSmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	font-weight: normal;
+}
+.changeBusTextSmall1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #003399;
+	font-weight: normal;
+}
+.changeBusTextSmall2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ff3300;
+	font-weight: bold;
+}
+.availableSeats {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+.nosSeats {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #660000;
+}
+.availableSeats_nos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: underline;
+}
+.availableSeats_nos:hover_nos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #222;
+	text-decoration: none;
+}
+.headerBoxColor {
+    padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003333;
+	text-decoration: none;
+	border-style:solid;
+	border-width:1px;
+	background-color: #ffffcc;
+}
+.STUcheckTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003300;
+	font-weight: bold;
+}
+.STUcheckTxt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003300;
+	font-weight: bold;
+}
+.service_tab_txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #356920;
+	font-weight: bold;
+}
+.full {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ff3300;
+	font-weight: bold;
+}
+.previousDayTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #0c00ff;
+	text-decoration: underline;
+}
+.seatNosTxtBoxseatlayout {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	height: 18px;
+	width: 200px;
+}
+.seatLayoutNoTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.travelSummaryPassengerTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+}
+.travelSummaryPassengerTxt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: underline;
+}
+.addressTxtBoxAge {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	height: 17px;
+	width: 20px;
+}
+.addressTxtBoxGender {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	height: 19px;
+	width: 60px;
+}
+.addressTxtBox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	height: 18px;
+	width: 210px;
+}
+.addressTxtBoxProof {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	height: 16px;
+	width: 211px;
+}
+.tableHeadTxtA {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;	
+}
+.tableHeadTxtB {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #f0f8ef;	
+}
+.seatLayoutInfolegend {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;	
+}
+.seatLayoutComboBox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	height: 18px;
+	width: 140px;
+}
+.noSeatsTxtSeatLayout {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #222;
+	text-decoration: none;
+}
+.starMessageTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #0A0000;
+	text-decoration: none;
+}
+.starMessageTxt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ff6600;
+	text-decoration: none;
+}
+.ddmmyyyyTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #0A0000;
+	text-decoration: none;
+}
+.serviceCombo {
+    height: 17px;
+	width: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.serviceCombo1 {
+    height: 20px;
+	width: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+.userNameTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+.warning_message {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ff6600;
+	text-decoration: none;
+	border-style:solid;
+    border-width:1px;
+}
+.forgotPasswordTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: underline;
+}
+.tableTitle1Orange {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ff9900;
+	text-decoration: none;
+}
+.tableTitle12range {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ff9900;
+	text-decoration: none;
+}
+.tableTitle12range1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #00000;
+	text-decoration: none;
+}
+.tableTitle13range {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ff9900;
+	text-decoration: none;
+}
+.tableTitle12Daterange {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff9900;
+	text-decoration: none;
+}
+.tabActivTripsTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #222;
+	text-decoration: none;
+}
+.TravelInfoTxtBig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003300;
+	font-weight: bold;
+}
+.pickup_pointTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#330000;
+	font-weight: normal;
+	text-decoration: none;
+}
+.selectedSeatNosTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.changeSeatTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #330000;
+	text-decoration: underline;
+}
+.changeSeatTxt:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffff99;
+	text-decoration: none;
+}
+.pagenationTxt {
+    padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ff6600;
+	text-decoration: none;
+	border-style:solid;
+	border-width:1px;
+	background-color: #ffffcc;
+	text-decoration: none;
+}
+.pagenationTxt:hover {
+    padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	border-style:solid;
+	border-width:1px;
+	background-color: #d7d6d3;
+	text-decoration: none;
+}
+.pagenationTxtNos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #0c00ff;
+	text-decoration: underline;
+}
+.pagenationTxtNos:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #222;
+	text-decoration: none;
+}
+.pagenationTxtNosSelect {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #222;
+	text-decoration: none;
+}
+.PickupPointCombo {
+    height: 17px;
+	width: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.slideTxt {
+ font-family:Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ font-weight: bold;
+ color:#993300;
+
+}
+.bus_pius_hotelTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+/* hotel styles 14/01/2012 */
+.adspace33 { 
+height:25px;
+background-color:#999966;
+padding-left:5px;
+}
+.linkBlackCal13 {font-family: "Calibri", Arial, Helvetica, sans-serif;font-size: 13px;color: #000;text-decoration: none;}
+.labelText1 {font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #003300; font-weight:normal;}
+.headingTexc { font-family:"calibri", "Trebuchet MS", Arial, Helvetica, sans-serif; font-size:11pt; color:#0B243A;}
+.lebeltxt2 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: bold;
+ color: #000000;
+ text-decoration: none;
+}
+.pad5bot{padding-left:7px; border-bottom:1px solid #fff;background: #CBFFC2;}
+.BG_fade {
+	height:23px;
+	background-image: url(../images/tab_fad.gif);
+	background-repeat: repeat;
+	height: 24px;
+}
+.pad5bot{padding-left:7px; border-bottom:1px solid #fff;background: #cccc66;}
+
+/* Sign in styles 
+#container {
+    width:110px;
+	
+    margin:0 auto;
+    position: relative;
+}
+
+#content {
+ 
+    width:320px;
+    min-height:500px;
+}
+#topnav a:link, a:visited {
+    color:#27b;
+    text-decoration:none;
+}
+#topnav a:hover {
+    text-decoration:underline;
+}
+#topnav a img {
+    border-width:0;
+}
+#topnav {
+    padding:13px 0px 12px;
+    font-size:11px;
+    line-height:23px;
+    text-align:right;
+}
+#topnav a.signin {
+ 
+    background:#187513;
+    padding:2px 4px 2px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    *background:transparent url("../images/signin-nav-bg-ie.png") no-repeat 0 0;
+    *padding:4px 12px 6px;
+    
+    border-style:solid;
+    border-width:1px;
+    border-color:#187513;
+
+}
+#topnav a.signin:hover {
+    background:#f2f8eb;
+    *background:transparent url("../images/signin-nav-bg-hover-ie.png") no-repeat 0 0;
+    *padding:2px 12px 2px;
+    color:#187513;
+}
+#topnav a.signin, #topnav a.signin:hover {
+    *background-position:0 3px!important;
+}
+
+#topnav a.signin {
+    position:relative;
+    margin-left:3px;
+    
+}
+#topnav a.signin span {
+    background-image:url("../images/toggle_down_light.png");
+    background-repeat:no-repeat;
+    background-position:100% 50%;
+    padding:4px 16px 6px 0;
+}
+
+#topnav a.signin:hover span {
+    background-image:url("../images/toggle_down_dark.png");
+    background-repeat:no-repeat;
+    background-position:100% 50%;
+    padding:4px 16px 6px 0;
+}
+
+
+#topnav a.menu-open {
+    background:#c3eb9a!important;
+    color:#187513!important;
+    
+    outline:none;
+}
+#small_signup {
+    display:inline;
+    float:none;
+    line-height:23px;
+    margin:25px 0 0;
+    width:170px;
+}
+#topnav a.signin.menu-open span {
+    background-image:url("../images/toggle_up_dark.png");
+    color:#187513;
+    
+}
+
+
+
+#signin_menu {
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    display:none;
+    background-color:#c3eb9a;
+    position:absolute;
+    width:210px;
+    z-index:100;
+    border-style:solid;
+    border-width:1px;
+    text-align:left;
+    padding:12px;
+    top: 27.5px; 
+    right: 0px; 
+    margin-top:5px;
+    margin-right: 0px;
+    *margin-right: -1px;
+    color:#187513;
+    font-size:11px;
+}
+
+#signin_menu input[type=text], #signin_menu input[type=password] {
+    display:block;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border:1px solid #ACE;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+    width:203px;
+    
+}
+#signin_menu p {
+    margin:0;
+}
+#signin_menu a {
+    color:#187513;
+}
+#signin_menu label {
+    font-weight:normal;
+}
+#signin_menu p.remember {
+    padding:10px 0;
+}
+#signin_menu p.forgot, #signin_menu p.complete {
+    clear:both;
+    margin:5px 0;
+}
+#signin_menu p a {
+    color:#187513!important;
+}
+#signin_submit {
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    background:#187513 url('../images/bg-btn-blue.png') repeat-x scroll 0 0;
+    border:1px solid #39D;
+    color:#fff;
+    text-shadow:0 -1px 0 #39d;
+    padding:4px 10px 5px;
+    font-size:11px;
+    margin:0 5px 0 0;
+    font-weight:bold;
+}
+#signin_submit::-moz-focus-inner {
+padding:0;
+border:0;
+}
+#signin_submit:hover, #signin_submit:focus {
+    background-position:0 -5px;
+    cursor:pointer;
+}
+
+Sign in end */
+
+.addressTxtBoxTS {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	height: 18px;
+	width: 310px;
+}
+.sortBy {
+	background-image: url(../images/sortBy.gif);
+	background-repeat: no-repeat;
+}
+.tripCodeTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003300;
+	font-weight: bold;
+}
+.jourentHrsTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	font-weight: normal;
+	/* text-align:justify; */
+	line-height:12px;	
+}
+.seeDetailsTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ff6600;
+	font-weight: bold;
+	text-decoration:underline;
+}
+.fareBGColor {
+   background-color: #DBFCB9;	
+	height: 23px;
+}
+.onwardJourneyTxtBig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #003300;
+	font-weight: bold;
+}
+.sortByTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #006600;
+	font-weight: bold;
+}
+.onwardJourneyBookingDetailsTxtA {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #333333;
+}
+.onwardJourneyBookingDetailsTxtB {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+.chooseOnwardJourneyTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #336600;
+	text-decoration: underline;
+}
+.chooseOnwardJourneyTxt:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}
+
+.priceRangeTabTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #222;
+	font-weight: normal;
+}
+.priceRangeTabTxt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #222;
+	font-weight: bold;
+}
+.dottedLineWa {		
+	background-image: url(../images/dottedLineWa.gif);	
+}
+.orangBandPickupp {
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: italic;
+	color: #fff;
+	text-decoration: underline;
+}
+.orangBandPickupp1 {
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: italic;
+	color: #fff;
+	text-decoration: underline;
+}
+.fareTextMultiTripTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+.tripsRadioTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	
+}
+.adultChildrenCombo {
+    height: 18px;
+	width: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.corporationCombo {
+    height: 18px;
+	width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.tableTitle1OrangeActive {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #316ac5;
+	text-decoration: none;
+}
+.tableTitle1OrangeActiveSmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #316ac5;
+	text-decoration: none;
+}
+.tableTitle1OrangeDisable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #cccccc;
+	text-decoration: none;
+}
+.tableTitle1OrangeDisable2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #cccccc;
+	text-decoration: none;
+}
+
+
+.PNRnoTxt {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #222;
+	text-decoration: none;
+	}
+	
+.leftlinks2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #006600;
+	text-decoration: none;
+}
+.leftlinks2:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: underline;
+}
+
+.leftlinks2Select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #222;
+	text-decoration: none;
+}
+
+.tabLine {
+	height: 1px;		
+	background-image: url(../images/tab_line.gif);	 
+}
+/* my_itineraries 01/02/2012 Suresh */
+.itineraryBigTxt {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ font-weight: bold;
+ color: #ff9900;
+ text-transform: uppercase;
+}
+.itinerarySmallTxt {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: bold;
+ color: #ff9900;
+ text-transform: uppercase;
+}
+.tabTxt1 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: bold;
+ color: #003300;
+ text-decoration: none;
+}
+.tabTxt2 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: bold;
+ color: #ffffcc;
+ text-decoration: none;
+}
+.tableHeadTxtC {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+ background-color: #f5f9f4; 
+}
+.tableHeadTxtLinkColr {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: normal;
+ color: #0033ff;
+ text-decoration: none;
+ background-color: #f5f9f4; 
+}
+.Booknow_Bullettxt {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11pt;
+ font-weight: bold;
+ color: #666666;
+}
+.navText {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: normal;
+ color: #666666;
+ text-decoration: underline;
+}
+.questions {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+ color: #666666;
+}
+
+.regdText {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ font-weight: normal;
+ 
+ color: #666666;
+}
+.myAccount_link {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: normal;
+ color: #0033CC;
+ text-decoration: underline;
+ 
+}
+.myAccount_link:hover {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: normal;
+ color: #222;
+ text-decoration: none;
+ line-height: 17px;
+}
+.calDoubleDate {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	height: 16px;
+	width: 60px;
+
+}
+/* my_itineraries 01/02/2012 Suresh */
+/* Hotel styles */
+.hotelFareAmtTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #ff6600;
+	font-weight: bold;
+}
+.hotelFareAmtTxt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #ff6600;
+	font-weight: bold;
+}
+.hotelTabDescTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #222;
+	font-weight: normal;
+}
+.hotelOnly2RoomsTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003399;
+	font-weight: bold;
+	text-decoration:underline;
+}
+.hotelOnly2RoomsTxtSmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #003399;
+	font-weight: normal;
+	text-decoration:underline;
+}
+.Avg_nightTxtSmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003399;
+	font-weight: normal;
+	text-decoration:underline;
+}
+.Avg_nightTxtSmall:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003399;
+	font-weight: normal;
+	text-decoration:none;
+}
+
+.tableTitle1OrangeActiveSmalla {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #316ac5;
+	text-decoration: underline;
+}
+.fareTextBigHtl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ff6600;
+	font-weight: bold;
+}
+.tableHeadTxtBcontent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 7.5pt;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #f0f8ef;	
+}
+.tableHeadTxtBcontent2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 7.5pt;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #ffffff;	
+}
+.tableHeadTxtBcontentHead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 7.5pt;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;		
+}
+.tableTitle1OrangeHotelNo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ff9900;
+	text-decoration: none;
+}
+.verLine {
+ background-image:url(../images/VerLine.gif);
+ background-repeat: repeat-y;
+
+}
+/* Bus + Hotel styles */
+.BHheaderTxt01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ff9900;
+}
+
+.BHheaderTxt0 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ff9900;
+}
+.showall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #003300;
+}
+.ChoosedifferentHotelTxt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #003333;
+}
+/*  Bus + Hotel styles End */
+
+/*    jquery*/
+.blkbtnleft { height:30px; width:9px; background:url(../images/blkbtn_left.gif) left; }
+.blkbtnright { background:url(../images/blkbtn_right.gif) right; color:#FFF; font-family:"Trebuchet MS"; font-size:14px; font-weight:bold; text-align:center; }
+.whiteboldlinks  { color:#FFF; font-family:"Trebuchet MS"; font-size:14px; font-weight:bold; text-align:center; text-decoration:none;}
+.whiteboldlinks : hover { color:#ece400; font-family:"Trebuchet MS"; font-size:14px; font-weight:bold; text-align:center; text-decoration:underline; }
+.fred{ color:#FF0606;font-family:"Arial"; font-size:9px;text-decoration:none;}
+.fcof{ color:#724040;font-family:"Arial"; font-size:11px;text-decoration:none;}
+.fmer{ color:#7F5078;font-family:"Arial"; font-size:12px;text-decoration:none;font-weight:bold;}
+.fmer2{ color:#7F5078;font-family:"Arial"; font-size:11px;text-decoration:none;}
+.fmer_b{ color:#046DA3;font-family:"Arial"; font-size:11px;text-decoration:none;}
+.fwht1{ color:#ffffff;font-family:"Arial"; font-size:11px;text-decoration:none;}
+.fblk1{ color:#000000;font-family:"Arial"; font-size:12px;text-decoration:none;}
+.fblkg{ color:#A6A5A5;font-family:"Arial"; font-size:11px;text-decoration:none;}
+.forghead{ color:#EA6D10;font-family:"Arial"; font-size:16px;text-decoration:none;font-weight:bold;}
+.forgheads{ color:#EA6D10;font-family:"Arial"; font-size:11px;text-decoration:none;}
+.fmerhead{ color:#57004A;font-family:"Arial"; font-size:16px;text-decoration:none;font-weight:bold;}
+.fmerheads{ color:#57004A;font-family:"Arial"; font-size:11px;text-decoration:none;}
+.fwthead{ color:#ffffff;font-family:"Arial"; font-size:12px;text-decoration:none;font-weight:bold; }
+.fwtrheads{ color:#28279b;font-family:"Arial"; font-size:11px;text-decoration:none;font-weight:normal;}
+
+.dv_line {height:11px;background-image: url(../images/tab_fad.gif);background-repeat: no-repeat;height: 11px;width: 638px;}
+.abthead{ color:#593A6B;font-family:"Arial"; font-size:12pt;text-decoration:none;}
+
+
+.opbg{ background:url(../images/option_bg.gif); width:212px; height:59px;}
+.subhed1{ color:#6A6A6A;font-family:"Arial"; font-size:13px;text-decoration:none;font-weight:bold;}
+.subhed2{ color:#6A6A6A;font-family:"Arial"; font-size:12px;text-decoration:none;font-weight:bold;}
+.subhed3{ color:#FD6B23;font-family:"Arial"; font-size:13px;text-decoration:none;font-weight:bold;}
+
+.contentTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	text-align: justify;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;	
+}
+.errorMessage1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #0066CC;
+	text-transform: uppercase;
+}
+.errorMessage2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #660000;
+}
+.errorMessage3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0066CC;
+	text-transform: uppercase;
+}
+.alert_mesageTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+/*FOR SEAT LAYOUT*/
+ladiesSeat {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 0px solid #000000;
+	background-image: url(../images/LadiesSeatnew.gif);
+	background-repeat: no-repeat;
+}
+.ladiesSeat1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 0px solid #000000;
+	background-image: url(../images/LadiesSeatnew.gif);
+	background-repeat: no-repeat;
+}
+.seatBookedImg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 0px solid #000000;
+	background-image: url(../images/bookedSeatnew.gif);
+	background-repeat: no-repeat;
+}
+.seatBookedImg1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 0px solid #000000;
+	background-image: url(../images/bookedSeatnew.gif);
+	background-repeat: no-repeat;
+}
+.conductorSeat {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #694062;
+	border: 0px solid #000000;
+	background-image: url(../images/conductor1.gif);
+	background-repeat: no-repeat;
+}
+.conductorSeat1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #694062;
+	border: 0px solid #000000;
+	background-image: url(../images/conductor.gif);
+	background-repeat: no-repeat;
+}
+.smallAlertTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.smallAlertTxt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
+.smallAlertTxt2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
+.mandatorystar {
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+}
+.mandatorystar1 {
+	color: #003300;
+	font-size: 14px;
+	font-weight: bold;
+}
+.userNammeTxtBox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	height: 18px;
+	width: 140px;
+}
+.userNammeTxtBox1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	height: 18px;
+	width: 200px;
+}
+.errorMessageTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ff2a00;
+	text-decoration: none;
+	background-color: #f8f8f8;
+	padding: 2px;
+	border-width:1px 1px 1px 1px;
+	border-color: #ff2a00;
+	border-style: solid;
+	text-align: center;
+}
+.guestUserNote {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003399;
+	text-decoration: none;
+}
+.pnrNoCancl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003300;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+.emailMyAcnt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003300;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+.seatLayoutInfo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #ff3300;
+	text-decoration: none;
+	background-color: #f8f8f8;
+	padding: 7px;
+	border-width:1px 1px 1px 1px;
+	border-color: #e3e3e3;
+	border-style: solid;
+}
+.seatLayoutInfo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ff3300;
+	text-decoration: none;
+	background-color: #f8f8f8;
+	padding: 7px;
+	border-width:1px 1px 1px 1px;
+	border-color: #e3e3e3;
+	border-style: solid;
+}
+.seatLayoutInfo2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ff3300;
+	text-decoration: none;
+	background-color: #f8f8f8;
+	padding: 7px;
+	border-width:1px 1px 1px 1px;
+	border-color: #e3e3e3;
+	border-style: solid;
+}
+.seatLayoutInfoLG {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #f8f8f8;
+	padding: 1px;
+	border-width:1px 1px 1px 1px;
+	border-color: #e3e3e3;
+	border-style: solid;
+} 
+.trip1HeadTxt {
+ width: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ font-weight: bold;
+ color: #ff6600;
+ text-decoration: none;
+}
+.trip1HeadTxtBig {
+ width: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+ color: #ff6600;
+ text-decoration: none;
+}
+
+.borderColor {
+	border: 1px solid #349933;
+}
+.pgAlert {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0101DF;
+	text-decoration: none;
+}
+/*31/12/2012 styles*/
+.sitemapTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #222222; text-decoration: none;
+}
+.sitemapTxt:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #003300;
+	text-decoration: underline;
+}
+.staticPageHead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ff9900;
+	text-decoration: none;
+}
+/* Busindia.com   New styles  8/Feb/2013   venkatesh  */
+
+.home_leftBoxHeadTxt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.home_leftBoxHeadTxt2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.home_leftBoxLiTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000; line-height: 13px;
+	
+}
+.home_leftBoxLiBulletImg {
+	list-style-image: url(../images/news_events_bullet.gif);
+	list-style-type: none; 
+	
+}
+.home_callcenterTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: normal;
+	color: #003300;
+}
+.home_callcenterTxtNo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;	
+	font-weight: bold;
+	color: #28279b;
+}
+.home_callcenterTxtNo_small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	
+}
+.newsTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 13px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	margin-left: -25px; 
+	list-style-image: url(../images/news_events_bullet.gif)
+}
+/* Web page STU styles */
+/* Busindia.com    styles  08/02/2013   suresh  */
+.leftmanetext {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3333cc;
+}
+.leftmanetextA {
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+.leftmanetextboldA {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF6531;
+	text-decoration: none;
+}
+.leftmanetextA:hover {
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+.content_text{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	line-height: 18px;
+	text-align: justify;
+}
+.tabletitle_head{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #187bd7;
+}
+.welcome_text{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #32617b;
+	text-decoration: none;
+	line-height: 16px;
+	text-align: justify;
+}
+.aboutUs_dotted {
+	background-image: url(../images/dotted.gif);
+	background-repeat: repeat-x;
+	width: 80%;
+}
+.topdestinations_dotted{
+	background-image: url(../images/dotted.gif);
+	background-repeat: repeat-x;
+	width: 80%;
+}
+
+.specialServices_Text{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #003366;
+}
+.individual_pageTxt{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+
+.odd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #f7f1f1;
+	letter-spacing: 1px;
+}
+.even {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #ebe4e4;
+	letter-spacing: 1px;
+}
+.tabletitle_subhead{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #d13a07;
+}
+.aboutus_line{
+	background-image: url(../images/aboutLine.gif);
+	background-repeat: repeat-x;
+	width: 80%;
+}
+.tnstcbodytext {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 3px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; COLOR: #000000; LINE-HEIGHT: 20px; PADDING-TOP: 2px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: justify;
+}
+.topwelcome {
+ FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.subheader {
+ FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.topdestinationsTxt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+}
+.cancellation_confirmTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #006600;
+	text-decoration: none;
+}
+.cancellation_confirmTxtSmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ff6600;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+/* Sprite Home Page STU scroll logos Start */ .HomeSTUlogosImage {display:block; height:75px; background: url(../images/Busindia_STUlogoSpriteImg.png); }
+.SpriteLogo01 {width:68px; background-position: -0px 0px;}
+.SpriteLogo02 {width:68px; background-position: -0px -85px;}
+.SpriteLogo03 {width:68px; background-position: -0px -170px;}
+.SpriteLogo04 {width:68px; background-position: -0px -255px;}
+.SpriteLogo05 {width:68px; background-position: -0px -340px;}
+.SpriteLogo06 {width:68px; background-position: -0px -425px;}
+.SpriteLogo07 {width:68px; background-position: -0px -510px;}
+.SpriteLogo08 {width:68px; background-position: -0px -595px;}
+.SpriteLogo09 {width:68px; background-position: -0px -680px;}
+.SpriteLogo10 {width:68px; background-position: -0px -765px;}
+.SpriteLogo11 {width:68px; background-position: -0px -850px;}
+.SpriteLogo12 {width:68px; background-position: -0px -935px;}
+.SpriteLogo13 {width:68px; background-position: -0px -1020px;}
+.SpriteLogo14 {width:68px; background-position: -0px -1105px;}
+.SpriteLogo15 {width:68px; background-position: -0px -1275px;}
+.SpriteLogo16 {width:68px; background-position: -0px -1360px;}
+.SpriteLogo17 {width:68px; background-position: -0px -1445px;}
+.SpriteLogo18 {width:68px; background-position: -0px -1105px;}
+.SpriteLogo19 {width:68px; background-position: -0px -1530px;}
+.SpriteLogo20 {width:68px; background-position: -0px -1615px;}
+.SpriteLogo21 {width:68px; background-position: -0px -1700px;}
+.SpriteLogo22 {width:68px; background-position: -0px -1785px;}
+.SpriteLogo23 {width:68px; background-position: -0px -1870px;}
+.SpriteLogo24 {width:68px; background-position: -0px -1955px;}
+.SpriteLogo25 {width:68px; background-position: -0px -2040px;}
+.SpriteLogo26 {width:68px; background-position: -0px -2210px;}
+.SpriteLogo27 {width:68px; background-position: -0px -2295px;}
+.SpriteLogo28 {width:68px; background-position: -0px -2380px;}
+.SpriteLogo29 {width:68px; background-position: -0px -2465px;}
+.SpriteLogo30 {width:68px; background-position: -0px -2550px;}
+.SpriteLogo31 {width:68px; background-position: -0px -2635px;}
+.SpriteLogo32 {width:68px; background-position: -0px -2720px;}
+.SpriteLogo33 {width:68px; background-position: -0px -2805px;}
+.SpriteLogo34 {width:68px; background-position: -0px -2890px;}
+.SpriteLogo35 {width:68px; background-position: -0px -2975px;}
+.SpriteLogo36 {width:68px; background-position: -0px -3060px;}
+.SpriteLogo37 {width:68px; background-position: -0px -3145px;}
+.SpriteLogo38 {width:68px; background-position: -0px -3230px;}
+.SpriteLogo39 {width:68px; background-position: -0px -3315px;}
+.SpriteLogo40 {width:68px; background-position: -0px -3400px;}
+.SpriteLogo41 {width:68px; background-position: -0px -3485px;}
+.SpriteLogo42 {width:68px; background-position: -0px -3570px;}
+.SpriteLogo43 {width:68px; background-position: -0px -3655px;}
+.SpriteLogo44 {width:68px; background-position: -0px -3740px;}
+/* Sprite Home Page STU scroll logos End */
+/* Home page Search box sprite curve images */
+.HomeCurveimage {height:15px; background: url(../images/home_curveImgs_sprite.png); }
+.HomeCurve01 {width:10px; background-repeat:no-repeat; background-position: -0px -15px; }
+.HomeCurve02 {width:10px; background-position: 1px 48px; }
+.HomeCurve03 {width:9px;height:9px; background-position: 0px 20px;}
+.HomeCurve04 {width:9px; background-position: 0px -43px; }
+.HomeCurveAr01 { background-position: -0px 0px; background-repeat: no-repeat;}
+.HomeCurveAr02 { background-position: -1px -5px; background-repeat: no-repeat;}
+/* Home page Search box sprite curve images END */
+
+/* START_Single Stop Booking -18-02-2013 */
+.singleStopTxt{ color:#EA6D10;font-family:"Arial"; font-size:16px;text-decoration:none;font-weight:bold;}
+.bookArrowTripTxt { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000066; text-decoration: none;}
+.alert_mesageTxtSS {
+	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;font-style: normal;	font-weight: bold;color: #0066cc;	text-decoration: none;
+}
+/* END_Single Stop Booking -18-02-2013 */
+
+/**START_Single Stop Booking Changes-08-05-2013*/
+/*One Stop Service styles 08052013 Venky */
+.oneStopTxt { 
+  color:#EA6D10;font-family:"Arial"; font-size:13px;text-decoration:none;font-weight:bold;
+}
+.oneStopTxtVia { 
+ color:#003366;font-family:"Arial"; font-size:11px;text-decoration:none;font-weight:bold;
+}
+.dottedLineOneStop {
+	height: 1px;		
+	background-image: url(../images/dottedLineOnestop.gif);	 
+}
+.OnestopTextSmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	font-weight: normal;
+}
+.OnestopTextSlNo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #996666;
+	font-weight: normal;
+}
+.OnestopTextSmallVia {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	font-weight: normal;
+}
+/**END_Single Stop Booking Changes-08-05-2013*/
+.selectedSeatNosTxt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #28279b;
+	text-decoration: none;
+}
+.selectedSeatNosLbl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	font-weight: bold;
+	color: #28279b;
+}
+.header_callcenterTxtNo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+	font-weight: bold;
+	color: #28279b;
+}
+.header_callcenterTxtNo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+/**START_Seat Layout Changes-20-06-2013*/
+.seatLayoutBG {background-color: #ff9933;}
+/**END_Seat Layout Changes-20-06-2013*/
+
+/**START_Changes in Home Page 20-07-2013*/
+/* Busindia.com    styles  19/07/2013   venkatesh  */
+.toplinks2_pipe{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: normal;
+}
+.toplinks2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+}
+.toplinks2:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6867fc;	
+	text-decoration: underline;
+}
+.homeTxtLi { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #777777; line-height: 23px;
+}
+.homeTxtLi2 { 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+font-weight: normal; 
+color: #777777; 
+line-height: 24px; 
+list-style-image: url(../images/top_bullet.gif);
+}
+
+.homeTxtLi2 li {
+	padding-top:2px;
+}
+.topDestiNamesTxt { 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; font-weight: normal; 
+color: #777777; 
+line-height: 18px; text-decoration: none; 
+}
+.topDestiNamesTxt:hover { 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; font-weight: normal; 
+color: #000; 
+line-height: 18px; text-decoration: underline; 
+}
+.weAcceptTxt { 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; font-weight: normal; 
+color: #666666; 
+text-decoration: none; 
+}
+.our_PartnerTxt {
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; font-weight: bold; 
+color: #000; 
+text-decoration: none; 
+}
+.our_PartnerTxt:hover {
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; font-weight: bold; 
+color: #000; 
+text-decoration: underline; 
+}
+.footerGreyLine {
+	height: 1px;		
+	background-image: url(../images/footer_greyLine.png);	 
+}
+/**END_Changes in Home Page 20-07-2013*/
+/* START_Changes Added for in Max Seat Selection-29-07-2013*/
+.maxSeatTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003300;
+	font-weight: bold;
+}
+/* END_Changes Added for in Max Seat Selection-29-07-2013*/
+/* START_UPSRTC Discount Coupon 28-08-2013*/
+.selector { 
+    -moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	border: 1px solid #CCCCCC; 
+	}
+.selector1 {    -moz-border-radius: 5px; 
+	 -webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	border: 1px solid #CCCCCC; 
+}
+.promoCodeLbl {
+    background-color: #CCCCCC;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #003300;
+	text-decoration: none;
+}
+.promoCodeVal {
+    background-color: #CCCCCC;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #003300;
+	text-decoration: none;
+}
+.promoCode {
+border:1px solid #888;
+float:left;
+//margin: 2px 2px 2px 2px;
+padding : 5px 5px 5px 5px;
+background: #ff8001;
+color: #003300;
+background-image: -webkit-gradient(linear, left top, left bottom, from( #ff8001 /*{b-bup-background-start}*/), to( #f8b97a /*{b-bup-background-end}*/));
+background-image: -webkit-linear-gradient( #ff8001 /*{b-bup-background-start}*/, #f8b97a /*{b-bup-background-end}*/);
+background-image: -moz-linear-gradient( #ff8001 /*{b-bup-background-start}*/, #f8b97a /*{b-bup-background-end}*/);
+background-image: -ms-linear-gradient( #ff8001 /*{b-bup-background-start}*/, #f8b97a /*{b-bup-background-end}*/);
+background-image: -o-linear-gradient( #ff8001 /*{b-bup-background-start}*/, #f8b97a /*{b-bup-background-end}*/);
+background-image: linear-gradient( #ff8001 /*{b-bup-background-start}*/, #f8b97a /*{b-bup-background-end}*/);
+border-radius: 5px 0 0 5px;
+}
+.seatLayoutHead {
+border:1px solid #888;
+width:100px;
+float:left;
+//margin: 2px 2px 2px 2px;
+padding : 5px 5px 5px 5px;
+background: #ff8001;
+background-image: -webkit-gradient(linear, left top, left bottom, from( #ff8001 /*{b-bup-background-start}*/), to( #f8b97a /*{b-bup-background-end}*/));
+background-image: -webkit-linear-gradient( #ff8001 /*{b-bup-background-start}*/, #f8b97a /*{b-bup-background-end}*/);
+background-image: -moz-linear-gradient( #ff8001 /*{b-bup-background-start}*/, #f8b97a /*{b-bup-background-end}*/);
+background-image: -ms-linear-gradient( #ff8001 /*{b-bup-background-start}*/, #f8b97a /*{b-bup-background-end}*/);
+background-image: -o-linear-gradient( #ff8001 /*{b-bup-background-start}*/, #f8b97a /*{b-bup-background-end}*/);
+background-image: linear-gradient( #ff8001 /*{b-bup-background-start}*/, #f8b97a /*{b-bup-background-end}*/);
+border-radius: 5px 0 0 5px;
+}
+
+/* END_UPSRTC Discount Coupon 28-08-2013*/
+/* START_Availability Page Changes-28-08-2013*/
+.filder_hrLine {
+	height: 1px;		
+	background-image: url(../images/filterBG_HrLine.gif);	 
+}
+.availability_HeadTxt {
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: underline;
+	cursor:pointer;
+}
+.availability_HeadTxt:hover {
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+.fareTextBlue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #211990;
+	font-weight: bold;
+}
+.filterGreyBG {
+	background-image: url(../images/filterBG.gif);
+	background-repeat: no-repeat; width: 212px;
+}
+.filterGreyBGTxt {  font-family: Arial, Helvetica, sans-serif; font-weight: bold; 
+font-size: 14px; margin-left: 10px; margin-bottom: -10px;
+}
+.filterGreyBGTxtSmall {  font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 11px; margin: 10px;
+}
+.fareTextSmallRed {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ff6600;
+	font-weight: normal;
+}
+.availability_NoSort_HeadTxt {
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+.changeBusTextSmall2a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	font-weight: bold;
+}
+.fareTextSmallA {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #fff;
+	font-weight: normal;
+}
+/* END_Availability Page Changes-28-08-2013*/
+/* Hotel styles 31 May 2013 */
+.fareTextBigHtlsmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ff6600;
+	font-weight: bold;
+}
+.hotelDealsSmallTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #990000;
+	font-weight: normal;
+}
+.per_room_per_night_Txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	font-weight: normal;
+	text-decoration:none;
+}
+.fareTextStrike {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ff6600;
+	font-weight: bold;
+}
+.htl_tableHead {
+    background-color: #f0f8ef;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+.htl_tableHeadTxtBcontent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 7.5pt;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #fff;	
+}
+/* 10/06/2013 Venky */
+.hotel_serviceCombo {
+    height: 20px;
+	width: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+.price_per_NightTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ff6600;
+	font-weight: normal;
+}
+.price_per_NightTxtRupee {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ff6600;
+	font-weight: bold;
+}
+/* Venky 27/06/2013 */
+.htlModifySearchHead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff6600;
+	text-decoration: none;	
+}
+.htlModifySearchHtlNo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #cc3300;
+	text-decoration: none;	
+}
+.htlModifySearchTxt2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;	
+}
+.modifySearchTxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #003300;
+	font-weight: bold; text-decoration: none;
+	
+}
+/* venky samll rooms*/
+
+.smallRoomsTxt {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ color: #000;
+ font-weight: normal;
+ text-align: left;
+ line-height: 16px;
+ /* border: 1px solid #ccc; */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 14px; 
+  margin-top: 5px;
+  
+  background-color: #ffffbc;
+}
+.smallRoomsTxtHead {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ color: #ff0000;
+ font-weight: normal;
+ 
+ 
+}
+
+table.ui-datepicker-calendar tbody td.highlight
+{
+	background-color: #FFEB80;
+}
+table.ui-datepicker-calendar tbody td.highlight > a {
+    background: url("images/highlight.png") no-repeat 50% 130% #FFEB80;
+    color: #363636;
+
+}
+
+#checkInDate
+{
+	height:1.3em;
+	font-size:12px;
+	font-weight:bold;
+	color:grey;
+	background-color: #F5F6CE;
+	background: #F5F6CE url() 50% 50% repeat-x;
+	border-radius : 2px;
+	/*border: 2px solid #008000; */
+	z-index: 100; /*must have*/
+	
+}
+
+#checkOutDate
+{
+	height:1.3em;
+	font-size:12px;
+	font-weight:bold;
+	color:grey;
+	background: #F5F6CE url() 50% 50% repeat-x;
+	border-radius : 2px;
+	/*border: 2px solid #008000; */
+	z-index: 100; /*must have*/
+	
+}
+
+.check_style
+{
+	border: 1px solid #ccc;
+	border-radius : 7px;
+	width:70px;
+	text-align:center;
+	-moz-box-shadow: 0 0 1px 1px #888;
+	-webkit-box-shadow: 0 0 1px 1px#888;
+	box-shadow: 0 0 1px 1px #888;
+	cursor:pointer;
+	
+	
+}
+
+#date_in
+{
+	font-size:20px;
+	text-align:center;
+	padding-top:5px;
+	background-color: #FFF;
+	
+}
+
+#day_in
+{
+	font-size:9px;
+	background-color: #FFF;
+	border-radius : 0px  0px 7px 7px;
+}
+
+#month_year_in
+{
+	font-weight:bold;
+	font-size:11px;
+	padding:0px;
+	/* border-bottom:1px solid #ccc; */
+	border-radius : 7px  7px 0px 0px;
+	-webkit-box-shadow: 0 2px 2px 0px #ccc;
+   	-moz-box-shadow: 0 2px 2px 0px #ccc;
+   	box-shadow: 0 2px 2px 0px #ccc;
+    background-color:#348014;
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from( #6facd5 {b-bhover-background-start}), to( #4272a4 {b-bhover-background-end}));
+	background-image: -webkit-linear-gradient( #348014 {b-bhover-background-start}, #abcd14 {b-bhover-background-end});
+	background-image: -moz-linear-gradient( #348014 {b-bhover-background-start}, #abcd14 {b-bhover-background-end});
+	background-image: -ms-linear-gradient( #348014 {b-bhover-background-start}, #abcd14 {b-bhover-background-end});
+	background-image: -o-linear-gradient( #348014 {b-bhover-background-start}, #abcd14 {b-bhover-background-end});
+	background-image: linear-gradient( #348014 {b-bhover-background-start}, #abcd14 {b-bhover-background-end}); */
+    color:#FFF;
+	
+}
+
+
+
+
+
+
+#date_out
+{
+	font-size:20px;
+	text-align:center;
+	padding-top:5px;
+	background-color: #FFF;
+	
+}
+
+#day_out
+{
+	font-size:9px;
+	background-color: #FFF;
+	border-radius : 0px  0px 7px 7px;
+}
+
+#month_year_out
+{
+	font-weight:bold;
+	font-size:11px;
+	padding:0px;
+	border-bottom:1px solid #ccc;
+	border-radius : 7px  7px 0px 0px;
+	-webkit-box-shadow: 0 2px 2px 0px #ccc;
+   	-moz-box-shadow: 0 2px 2px 0px #ccc;
+   	box-shadow: 0 2px 2px 0px #ccc;
+    background-color:#348014;
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from( #6facd5 {b-bhover-background-start}), to( #4272a4 {b-bhover-background-end}));
+	background-image: -webkit-linear-gradient( #348014 {b-bhover-background-start}, #abcd14 {b-bhover-background-end});
+	background-image: -moz-linear-gradient( #348014 {b-bhover-background-start}, #abcd14 {b-bhover-background-end});
+	background-image: -ms-linear-gradient( #348014 {b-bhover-background-start}, #abcd14 {b-bhover-background-end});
+	background-image: -o-linear-gradient( #348014 {b-bhover-background-start}, #abcd14 {b-bhover-background-end});
+	background-image: linear-gradient( #348014 {b-bhover-background-start}, #abcd14 {b-bhover-background-end}); */
+    color:#FFF;
+	
+}
+
+.search_hotel_button {
+	height: 33px;
+	width:150px;
+	background-color:#348014;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #579a46 /*{b-bup-background-start}*/), to( #348014 /*{b-bup-background-end}*/));
+	background-image: -webkit-linear-gradient( #579a46 /*{b-bup-background-start}*/, #348014 /*{b-bup-background-end}*/);
+	background-image: -moz-linear-gradient( #579a46 /*{b-bup-background-start}*/, #348014 /*{b-bup-background-end}*/);
+	background-image: -ms-linear-gradient( #579a46 /*{b-bup-background-start}*/, #348014 /*{b-bup-background-end}*/);
+	background-image: -o-linear-gradient( #579a46 /*{b-bup-background-start}*/, #348014 /*{b-bup-background-end}*/);
+	background-image: linear-gradient( #579a46 /*{b-bup-background-start}*/, #348014 /*{b-bup-background-end}*/);
+	border-radius : 7px  7px 7px 7px;
+	opacity:100;
+}
+
+/* .search-header {
+	height: 33px;
+	width:100%;
+	background-color:#348014;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #579a46 {b-bup-background-start}), to( #348014 {b-bup-background-end}));
+	background-image: -webkit-linear-gradient( #579a46 {b-bup-background-start}, #348014 {b-bup-background-end});
+	background-image: -moz-linear-gradient( #579a46 {b-bup-background-start}, #348014 {b-bup-background-end});
+	background-image: -ms-linear-gradient( #579a46 {b-bup-background-start}, #348014 {b-bup-background-end});
+	background-image: -o-linear-gradient( #579a46 {b-bup-background-start}, #348014 {b-bup-background-end});
+	background-image: linear-gradient( #579a46 {b-bup-background-start}, #348014 {b-bup-background-end});
+	
+} */
+
+.search-header {
+	margin-top : 14px;
+	margin-bottom: 10px;
+	}
+.search-header span {
+	
+	color: yellow;
+	font-weight: normal;
+	font-size: 20px;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 30px;
+	
+}
+
+#hotel-search-div {
+	background-color:rgba(0, 0, 0, 0.6);
+	padding-left:10px;
+	padding-bottom:32px;
+	border-top:3px solid #079615;
+	
+	
+}
+
+#main-div {
+	width:100%;
+}
+
+
+
+
+#hotelSearch
+{
+	background-color:rgba(0, 0, 0, 0.6);
+}
+
+#bottom-1, #bottom-2
+{
+	-moz-box-shadow: 0 0 1px 2px #ccc;
+	-webkit-box-shadow: 0 0 1px 2px#ccc;
+	box-shadow: 0 0 1px 2px #ccc;
+	margin-bottom:10px;
+	
+}
+
+.top-des
+{
+	color:#000;
+	background-color:#FFF;
+	display:inline-block;
+	margin-left:10px;
+	margin-bottom:30px;
+	
+}
+
+.top-des a
+{	
+	background-color:#FFF;
+	text-decoration:none;
+	color: rgb(23, 67, 146);
+	padding:10px;
+	border:1px solid #888;
+	/* background-image: -webkit-gradient(linear, left top, left bottom, from( #ccc {b-bup-background-start}), to( #fff {b-bup-background-end}));
+	background-image: -webkit-linear-gradient( #ccc {b-bup-background-start}, #fff {b-bup-background-end});
+	background-image: -moz-linear-gradient( #ccc {b-bup-background-start}, #fff {b-bup-background-end});
+	background-image: -ms-linear-gradient( #ccc {b-bup-background-start}, #fff {b-bup-background-end});
+	background-image: -o-linear-gradient( #ccc {b-bup-background-start}, #fff {b-bup-background-end});
+	background-image: linear-gradient( #ccc {b-bup-background-start}, #fff {b-bup-background-end}); */
+	border-radius : 7px 7px 7px 7px;
+}
+
+#ybusindiaBox {
+	width: 450px;
+	height: 200px;
+	line-height: 150px;
+	background-color: #ff9000;
+	font-family: 'ChunkFive Regular', Tahoma, Helvetica;
+	font-size: 2.5em;
+	color: #ffffff;
+	text-align: center;
+}
+
+#ybusindiaBox div {
+	width: 450px;
+	height: 50px;
+	font-family: 'ChunkFive Regular', Tahoma, Helvetica;
+	font-size: 1em;
+	color: #ffffff;
+	text-align: left;
+	margin-left:10px;
+}
+
+#ybusindiaBox li {
+	font-family: 'ChunkFive Regular', Tahoma, Helvetica;
+	font-size: 1em;
+	color: #ffffff;
+	text-align: left;
+}
+
+
+#ybusindiaPad {
+margin: -215px 0;
+width: 450px;
+text-align: center;
+}
+
+#ybusindiaPad a:hover {
+	background-color: #ff9000;
+	border: 2px solid #ff9000;
+}
+#ybusindiaPad a {
+	padding: 5px 15px;
+	background: #1e90ff;
+	border: 2px solid #1e90ff;
+	border-radius: 2px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: Helvetica, Tahoma, Verdana, sans-serif;
+	line-height: 30px;
+	height: 30px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-box-shadow: 1px 1px 2px #999999;
+	-webkit-box-shadow: 1px 1px 2px #999999;
+	-webkit-transition-duration: 1s;
+}
+/*START_Changes for fare strike on 30-12-2013*/
+.fareStrikingTextOrange {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ff3300;
+    font-weight: bold; text-decoration: line-through;
+}
+/*END_Changes for fare strike on 30-12-2013*/
+/*START_Hotel Popup on 03-01-2014*/
+#close_x { 
+	background-image: url(../images/popup_close_button.png); background-repeat: no-repeat; 
+    width: 24px; height: 23px;
+    overflow: hidden; line-height: 1000px;
+    display: block;
+    position: absolute; top: 5px; right: 5px;      
+}	
+#hotelBkgPopoup {
+   -moz-border-radius: 6px;
+   background: #eeeeee;
+   -webkit-border-radius: 6px;
+   border: 1px solid #536376;
+   -webkit-box-shadow: rgba(0,0,0,.6) 0px 2px 12px;
+   -moz-box-shadow:  rgba(0,0,0,.6) 0px 2px 12px;;
+   padding: 14px 22px;
+   width: 400px;
+   position: relative;
+   display: none;
+ }
+.roundHotel_img{  
+ border:1px solid #8bb6e3;
+ padding:3px 5px; 
+ background:#ffffcc;
+ width:100%;
+ border-radius:10px;
+ -moz-box-shadow: -5px -5px #888;
+ -webkit-box-shadow: -5px -5px #888;
+ box-shadow: -5px -5px #888;
+}
+.popup_contentH1 { 
+	font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #003399;
+}
+/*END_Hotel Popup on 03-01-2014*/
+/*START_Cancellation Links 30-01-2014*/
+.nav_canTxt {
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 12px; 
+  font-weight: normal; 
+}
+#nav_canc{
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 12px; 
+  font-weight: normal; 
+  list-style:none; 
+	
+	float:right;
+	width:100%;
+	
+}
+#nav_canc li{
+	float:right;
+	margin-right:2px;
+	position:relative;
+	font-size:12px;
+}
+#nav_canc a{
+	display:block;
+	padding:0px 2px 0 2px;
+	color:#000;
+	background:#fff;
+	text-decoration:none;
+}
+#nav_canc a:hover{
+	color:#000;
+	background:#6b0c36;
+	text-decoration:underline;
+}
+/*--- DROPDOWN ---*/
+#nav_canc ul{
+	background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+#nav_canc ul li{
+	padding-top:0px; margin-left: -40px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none; 	
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-right: 1px solid rgba(0,0,0,0.2);
+	border-left: 1px solid rgba(0,0,0,0.2);
+}
+#nav_canc ul a{
+	white-space:nowrap;	 
+}
+#nav_canc li:hover ul{ 
+	left:0;  
+}
+#nav_canc li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	background:#fff;
+	text-decoration:underline;
+}
+#nav_canc li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav_canc li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	background:#fff; background-color: #f0f9e4;
+	
+}
+/*END_Cancellation Links 30-01-2014*/
+.newIcon {
+ padding-top: 8px;
+ background-image: url(../images/new_icon.gif);
+ background-repeat: no-repeat;
+}
